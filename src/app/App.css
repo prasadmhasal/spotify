@@ -1,0 +1,52 @@
+body,html,#root{
+  height: 100%;
+ }
+
+html{
+  font-size: 10px;
+  }
+
+h1{
+  padding: 0.77rem 0;
+  background-color: #b16d22;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.88rem;
+  color:aliceblue
+  }
+
+h1 .highlight{
+  color: rgb(46,113,238);
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.22rem;
+}
+.App{
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  background-image: url(./download.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+  color:aliceblue;
+}
+
+.App-playlist{
+display: flex;
+justify-content: space-between;
+
+}
+@media only  screen and (max-width:1020px) {
+  .App-playlist{
+    align-items: center;
+    flex-direction: column;
+  }
+  
+}
